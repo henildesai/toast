@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className='mt-[15%] ml-[15%]'>
-      <div className="flex flex-col space-y-4 w-1/4 bg-gray-100 rounded">
+      <div className="flex flex-col space-y-4 w-1/2 bg-gray-100 rounded">
         <div className="flex justify-between">
           <input type="radio" value="top-left" name="radios" className="mr-1" 
             onChange={handleOptionChange}
